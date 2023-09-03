@@ -1,0 +1,91 @@
+.top-navbar {
+    position: relative;
+    width: auto;
+    height: 76px;
+    background-color: #2E333A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 10px 0px #000000;
+    z-index: 2;
+}
+
+.top-navbar-sub {
+    width: 100%;
+    margin: 10px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-navbar-sub .techfriar-logo {
+    width: 123px;
+    height: 37px;
+}
+
+/* search bar start */
+.search-bar-div {
+    width: 343px;
+    border-radius: 10px;
+    padding: 10px 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: inset 3px 3px 4px 0px #000000, inset -3px -3px 4px -3px #B2C2CB;
+}
+
+.search-bar-div input {
+    background-color: #2E333A;
+    padding: 0;
+    border: none;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+.search-bar-div input:focus {
+    outline: none;
+}
+
+.search-bar-div:focus-within {
+    border: 1px solid #0ED2F6;
+}
+
+.search-bar-div img {
+    width: 15px;
+    height: 15px;
+}
+/* search bar end */
+
+/* buttons row start */
+.buttons-row-div {
+    width: 267px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons-row-div img {
+    width: 52px;
+    height: 52px;
+}
+
+.buttons-row-child {
+    cursor: pointer;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 6px 6px 18px -8px #000000, -4px -4px 18px -10px #B2C2CB;
+}
+
+.buttons-row-child .ico1, .buttons-row-child .ico2 {
+    height: 20px;
+    width: 25px;
+}
+
+.buttons-row-child .ico3 {
+    height: 20px;
+    width: 15px;
+}
+/* buttons row end */
