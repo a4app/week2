@@ -1,0 +1,58 @@
+.navbar {
+    width: 100%;
+    height: 93px;
+    background-color: #2E333A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-sub {
+    width: 1208px;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.techfriar-logo {
+    width: 137px;
+    height: 46px;
+}
+
+.navbar-discord-signin {
+    width: 218px;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signin-button {
+    padding: 0;
+    border-radius: 12px;
+    width: 118px;
+    height: 38px;
+    color: #B2C2CB;
+    font-weight: 600;
+    font-size: 17px;
+    border: none;
+    background-color: #2E333A;
+    box-shadow: 6px 6px 18px -10px #000000, -6px -6px 18px -10px #B2C2CB;
+}
+
+.discord-logo-div {
+    background-color: #2E333A;
+    border-radius: 12px;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 6px 6px 18px -10px #000000, -6px -6px 18px -10px #B2C2CB;
+}
+
+.discord-logo-div img {
+    width: 27px;
+    height: 27px;
+}

@@ -1,0 +1,224 @@
+.right-side {
+    width: 100%;
+    margin-left: 126px;
+    margin-top: 51px;
+    margin-right: 88px;
+    overflow: auto;
+    position: relative;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+.right-side-top-div {
+    padding: 15px 15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+}
+
+/* right side top left start */
+.right-side-top-left {
+    border-radius: 17px;
+    box-shadow: 2px 2px 20px 0px;
+    width: 290px;
+    height: 100%;
+}
+
+.right-side-top-left-head {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 24px;
+    margin: 17px 17px 20px 17px;
+}
+
+.right-side-top-left-column {
+    display: flex;
+    height: 330px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 17px 17px 17px;
+}
+
+.right-side-top-left-column-elements-head {
+    width: auto;
+    height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
+.right-side-top-left-column-elements-slp {
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.right-side-top-left-column-elements-usd {
+    width: 62px;
+    height: 16px;
+    font-size: 12px;
+    color: #B8F1FC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.last-two {
+    font-size: 20px;
+    font-weight: 500;
+}
+/* right side top left end */
+
+.right-side-top-right {
+    border-radius: 17px;
+    width: 600px;
+    height: 350px;
+    padding: 17px;
+    box-shadow: 2px 2px 20px 0px #000000;
+}
+
+.right-side-top-right-head-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.daily-slp {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 23px;
+}
+
+.prev-slp-today-slp {
+    margin-top: 21px;
+    display: flex;
+    justify-content: space-between;
+    width: 152px;
+}
+
+.prev-slp {
+    background-color: #668599;
+    width: 65px;
+    height: 21px;
+    font-size: 10px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.today-slp {
+    background-color: #0ED2F6;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80px;
+    height: 21px;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+/*----------------*/
+
+.right-side-top-right-head-div-rightside {
+    width: 48px;
+    height: 41px;
+    padding: 5px 13px;
+    border-radius: 7px;
+    box-shadow: inset 3px 3px 4px 0px #000000, inset -1px -1px 5px 0px #B2C2CB;
+}
+
+.total-slp {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    color: #72E4F9;
+}
+
+.div-540 {
+    margin-top: 3px;
+    font-weight: 700;
+    color: #72E4F9;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* chart start */
+.chart-line-div {
+    position: absolute;
+    margin-top: 48px;
+    width: 635px;
+    height: 221px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.chart-line-div hr {
+    position: relative;
+    width: 600px;
+    background-color: #668599;
+    margin: 0px;
+    height: 1px;
+    border: none;
+}
+
+.chart-rectangles-div {
+    margin-top: 32px;
+    display: flex;
+}
+
+.chart-values-div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 16px;
+    height: 238px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 17px;
+}
+
+.rectangle-background-div {
+    position: relative;
+    height: 238px;
+    width: 51px;
+    box-shadow: inset 2px 2px 6px 0.5px #000000, inset -1px -1px 5px 0px #B2C2CB;
+    border-radius: 10px;
+    background-color: #2E333A;
+    margin-right: 34px;
+}
+
+.chart-bottom-values {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 100px;
+    margin-top: 5px;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+.color-rectangle {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #668599;
+}
+
+.last-color-rectangle {
+    background-color: #0ED2F6;
+}
+

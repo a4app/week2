@@ -1,0 +1,139 @@
+.body-one {
+    z-index: 1;
+    height: 750px;
+    background:linear-gradient(#2E333A, #2E333A, #000000);
+}
+
+.text-div {
+    z-index: 3;
+    background-color: #2E333A;
+    position: relative;
+    top: 34px;
+    left: 130px;
+    border-radius: 17px;
+    width: 670px; /*720px*/
+    height: auto; /*506px*/
+    box-shadow: 4px 5px 25px 0px #000000;
+    padding: 27px;
+}
+
+.text-div-sub {
+    width: auto;
+    color: #FFFFFF;
+    font-size: 43px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+}
+
+.join-us-to {
+    width: 360px;
+    margin-top: 27px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    word-spacing: 5px;
+    color: #FFFFFF;
+}
+
+.create-account-div {
+    width: auto;
+    height: 126px; /*206px*/
+    margin-top: 48px;
+}
+
+.create-account-button {
+    background-color: #2E333A;
+    padding: 14px 27px;
+    border: 1px solid #0ED2F6;
+    color: #0ED2F6;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 15px;
+    box-shadow: 4px 4px 12px 0px #000000, -4px -4px 12px -9px #ffffff;
+}
+
+.registrations-div {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 247px;
+}
+
+.avatar:not(:first-child){
+    margin-left: -25px;
+}
+
+.avatar img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 3px solid #2E333A;
+}
+
+.registration-count-text {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* content-row start*/
+.content-row {
+    z-index: 3;
+    position: relative;
+    top: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.columns {
+    width: 219px;
+    margin: 0 30px;
+}
+
+.column-top {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.column-top .icon1 {
+    width: 17px;
+    height: 17px;
+}
+.column-top .icon2 {
+    width: 20px;
+    height: 20px;
+}
+.column-top .icon3 {
+    width: 28px;
+    height: 13px;
+}
+
+.column-title {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 6px;
+}
+
+.column-desc {
+    padding: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+/* content-row end */
+
+
+
+
+
+
+
+
+
+

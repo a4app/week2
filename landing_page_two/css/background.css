@@ -1,0 +1,26 @@
+.bg1 {
+    position: absolute;
+    width: 580px;
+    height: 400px;
+    z-index: 2;
+    left: 680px;
+    top: 200px;
+}
+
+.bg2 {
+    position: absolute;
+    width: 340px;
+    height: 425px;
+    z-index: 2;
+    right: 0;
+    top: 395px;
+}
+
+.bg3 {
+    position: absolute;
+    width: 645px;
+    height: 450px;
+    z-index: 2;
+    left: 340px;
+    top: 394px;
+}

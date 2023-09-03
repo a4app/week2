@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="./javascript/password.js"></script>
+		<link rel="stylesheet" href="./css/main.css">
+		<link rel="stylesheet" href="./css/background.css">
+		<link rel="stylesheet" href="./css/navbar.css">
+		<link rel="stylesheet" href="./css/body_one.css">
+		<link rel="stylesheet" href="./css/body_two.css">
+		<title>Landing Page</title>
+	</head>
+	<body>
+		<div class="main">
+
+			<div class="navbar">	<!-- Top navigation bar start -->
+				<div class="navbar-sub">
+					<img src="./assets/navbar/logo.png" alt="logo" class="techfriar-logo">
+					<div class="navbar-discord-signin">
+						<a href="../landing_page_two/index.html#sign-in-form">
+							<button class="signin-button">Sign in</button>
+						</a>	
+						<div class="discord-logo-div">
+							<img src="./assets/navbar/discord.png" alt="discord">
+						</div>
+					</div>
+				</div>
+			</div>   <!--  Top navigation bar end -->
+
+			<div class="body-one">
+				<div class="text-div">
+					<div class="text-div-sub">
+						Year's end is neither an end nor a beginning but a  <br> going on
+					</div>
+					<div class="join-us-to">
+						Join us to celebrate the last night of the year accross the country
+					</div>
+					<div class="create-account-div">
+						<a href="#add-account-form">
+							<button class="create-account-button">Create account</button>
+						</a>
+						<div class="registrations-div">
+							<div class="circle-avatars">
+								<span class="avatar">
+									<img  src="./assets/registrations/p1.jpeg">
+								</span>
+								<span class="avatar">
+									<img src="./assets/registrations/p2.jpeg">
+								  </span>
+								<span class="avatar">
+									<img src="./assets/registrations/p3.jpeg">
+								</span>
+							</div>
+							<div class="registration-count-text">
+								+ 23547 registrations
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="content-row">
+					<div class="columns">
+						<div class="column-top">
+							<img class="icon1" src="./assets/row-icons/icon1.png" alt="icon1">
+							<span class="column-title">A single source of truth</span>
+						</div>
+						<div class="column-desc">
+							When you add work to your slate calender we automatically calculate useful insights
+						</div>
+					</div>
+					<div class="columns">
+						<div class="column-top">
+							<img class="icon2" src="./assets/row-icons/icon2.png" alt="icon2">
+							<span class="column-title">Intuitive interface</span>
+						</div>
+						<div class="column-desc">
+							When you add work to your slate calender we automatically calculate useful insights
+						</div>
+					</div>
+					<div class="columns">
+						<div class="column-top">
+							<img class="icon3" src="./assets/row-icons/icon3.png" alt="icon3">
+							<span class="column-title">Or with rules</span>
+						</div>
+						<div class="column-desc">
+							When you add work to your slate calender we automatically calculate useful insights
+						</div>
+					</div>
+				</div>
+
+				<!-- Background start -->
+				<img class="bg1" src="./assets/background/bg1.png" alt="bg1">
+				<img class="bg2" src="./assets/background/bg2.png" alt="bg2">
+				<img class="bg3" src="./assets/background/bg3.png" alt="bg3">
+				<!-- Background end -->
+			</div>
+
+			<div class="body-two" id="add-account-form">
+				<div class="create-account-form-div">
+					<div class="create-account-form-head">
+						Add New Account
+					</div>
+					<div class="form-fields-row-div">
+						<div class="form-field-div">
+							<div class="field-title">Name</div>
+							<div class="input-field-div">
+								<input type="text" class="name">
+							</div>
+						</div>
+						<div class="form-field-div">
+							<div class="field-title">Email</div>
+							<div class="input-field-div">
+								<input type="email" class="name">
+							</div>
+						</div>
+					</div>
+					<div class="form-fields-row-div">
+						<div class="form-field-div">
+							<div class="field-title">Organisation</div>
+							<div class="input-field-div">
+								<input type="text" class="name">
+							</div>
+						</div>
+						<div class="form-field-div">
+							<div class="field-title">Role</div>
+							<div class="role-field">
+								<select id="select">
+									<option>Scholar</option>
+									<option>Option2</option>
+									<option>Option3</option>
+								</select>
+								<img src="./assets/signup_form/arrow_down.png" alt="eye" id="arrow">
+							</div>
+						</div>
+					</div>
+					<div class="form-fields-row-div">
+						<div class="form-field-div">
+							<div class="field-title">Password</div>
+							<div class="input-field-div">
+								<input type="password" class="name" id="pass">
+								<img src="./assets/signup_form/eye_close.png" alt="eye" onclick="passwordEye('pass')" id="eye1">
+							</div>
+						</div>
+						<div class="form-field-div">
+							<div class="field-title">Confirm Password</div>
+							<div class="input-field-div">
+								<input type="text" class="name" id="confm">
+								<img src="./assets/signup_form/eye_open.png" alt="eye" onclick="passwordEye('confm')" id="eye2">
+							</div>
+						</div>
+					</div>
+					<div class="primary-summary-div">
+						<div class="field-title">Profile Summary</div>
+						<!-- <div class="primary-summary-text">
+							Axie Infinity is a trading and battling game that 
+							allows players to collect, breed, raise, battle, and trade 
+							creatures known as "Axies" (characters based on axolotl), which are 
+							digitized as NFTs. As of September 2021, the majority of players were based in the
+							<br><br><br><br>
+						</div> -->
+						<textarea class="primary-summary-text" rows="7"></textarea>
+					</div>
+					<a href="../landing_page_two/index.html#sign-in-form">
+						<div class="already-have-account">
+							Already have an account ?
+						</div>
+					</a>
+					<div class="create-account-form-button-div">
+						<button class="create-account-form-button">Create account</button>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</body>
+</html>

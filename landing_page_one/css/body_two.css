@@ -1,0 +1,161 @@
+.body-two {
+    background:linear-gradient(#000000, #2E333A, #2E333A);
+    padding: 41px 55px 69px 55px;
+    height: 660px;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.create-account-form-div {
+    width: 573px;
+    height: 580px;
+    box-shadow: 4px 4px 26px 0px #000000, -4px -4px 17px -9px #ffffff;
+    border-radius: 17px;
+    padding: 50px;
+    margin-bottom: 60px;
+    background-color: #2E333A;
+}
+
+.create-account-form-head {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 34px;
+    width: 217px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0ED2F6;
+}
+
+.form-fields-row-div {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.form-field-div {
+    width: auto;
+}
+
+.field-title {
+    color: #0ED2F6;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-field-div {
+    padding: 8px 14px;
+    margin-top: 5px;
+    width: 240px;
+    border-radius: 7px;
+    background-color: #2E333A;
+    border: 1px solid #00000000;
+    box-shadow: inset 3px 3px 4px 0px #000000, inset -3px -3px 4px -3px #B2C2CB;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    padding: 0;
+    background-color: #2E333A;
+    border: none;
+    caret-color: #B2C2CB;
+    color: #B2C2CB;
+    width: 100%;
+}
+
+.input-field-div:focus-within, .primary-summary-text:focus-within {
+    outline: none;
+    border: 1px solid #0ED2F6;
+}
+
+.name:focus, .primary-summary-text:focus {
+    outline: none;
+}
+
+.input-field-div img {
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+}
+
+/* Role input fiels start */
+.role-field {
+    padding: 8px 14px;
+    margin-top: 5px;
+    width: 240px;
+    border-radius: 7px;
+    background-color: #2E333A;
+    border: 1px solid #00000000;
+    box-shadow: -3px -3px 4px -3px #B2C2CB, 3px 3px 4px 0px #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.role-field select, .role-field select:focus {
+    appearance: none;
+    width: 100%;
+    background-color: #2E333A;
+    color: #B2C2CB;
+    font-weight: 600;
+    outline: none;
+    border: none;
+}
+
+.role-field img {
+    width: 10px;
+    height: 7px;
+}
+/* Role input fiels end */
+
+/* Primary summary start */
+.primary-summary-text {
+    padding: 14px 14px;
+    resize: none;
+    margin-top: 5px;
+    width: calc(100% - 28px);
+    border-radius: 7px;
+    background-color: #2E333A;
+    border: 1px solid #00000000;
+    box-shadow: inset 3px 3px 4px 0px #000000, inset -3px -3px 4px -3px #B2C2CB;
+    color: #B2C2CB;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 530;
+}
+/* Primary summary end */
+
+.already-have-account {
+    color: #0ED2F6;
+    text-decoration: underline;
+    margin-top: 12px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* create account form submit button start */
+.create-account-form-button-div {
+    margin-top: 27px;
+    display: flex;
+    justify-content: center;
+}
+
+.create-account-form-button {
+    padding: 10px 40px;
+    color: #0ED2F6;
+    font-weight: 600;
+    border: 1px solid #0ED2F6;
+    background-color: #2E333A;
+    box-shadow: 4px 4px 12px 0px #000000, -4px -4px 12px -9px #ffffff;
+    border-radius: 8px;
+    font-size: 16px;
+}
+/* create account form submit button end */
+
+
+
+
+
+

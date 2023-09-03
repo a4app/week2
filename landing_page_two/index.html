@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="./javascript/password.js"></script>
+		<link rel="stylesheet" href="./css/main.css">
+		<link rel="stylesheet" href="./css/background.css">
+		<link rel="stylesheet" href="./css/navbar.css">
+		<link rel="stylesheet" href="./css/body_one.css">
+		<link rel="stylesheet" href="./css/body_two.css">
+		<title>Landing Page 2</title>
+	</head>
+	<body>
+		<div class="main">
+
+			<div class="navbar">	<!-- Top navigation bar start -->
+				<div class="navbar-sub">
+					<img src="./assets/navbar/logo.png" alt="logo" class="techfriar-logo">
+					<div class="navbar-discord-signin">
+						<a href="#sign-in-form">
+							<button class="signin-button">Sign in</button>
+						</a>
+						<div class="discord-logo-div">
+							<img src="./assets/navbar/discord.png" alt="discord">
+						</div>
+					</div>
+				</div>
+			</div>   <!--  Top navigation bar end -->
+
+			<div class="body-one">
+				<div class="text-div">
+					<div class="text-div-sub">
+						Year's end is neither an end nor a beginning but a  <br> going on
+					</div>
+					<div class="join-us-to">
+						Join us to celebrate the last night of the year accross the country
+					</div>
+					<div class="create-account-div">
+						<a href="../landing_page_one/index.html#add-account-form">
+							<button class="create-account-button">Create account</button>
+						</a>
+						<div class="registrations-div">
+							<div class="circle-avatars">
+								<span class="avatar">
+									<img  src="./assets/registrations/p1.jpeg">
+								</span>
+								<span class="avatar">
+									<img src="./assets/registrations/p2.jpeg">
+								  </span>
+								<span class="avatar">
+									<img src="./assets/registrations/p3.jpeg">
+								</span>
+							</div>
+							<div class="registration-count-text">
+								+ 23547 registrations
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="content-row">
+					<div class="columns">
+						<div class="column-top">
+							<img class="icon1" src="./assets/row-icons/icon1.png" alt="icon1">
+							<span class="column-title">A single source of truth</span>
+						</div>
+						<div class="column-desc">
+							When you add work to your slate calender we automatically calculate useful insights
+						</div>
+					</div>
+					<div class="columns">
+						<div class="column-top">
+							<img class="icon2" src="./assets/row-icons/icon2.png" alt="icon2">
+							<span class="column-title">Intuitive interface</span>
+						</div>
+						<div class="column-desc">
+							When you add work to your slate calender we automatically calculate useful insights
+						</div>
+					</div>
+					<div class="columns">
+						<div class="column-top">
+							<img class="icon3" src="./assets/row-icons/icon3.png" alt="icon3">
+							<span class="column-title">Or with rules</span>
+						</div>
+						<div class="column-desc">
+							When you add work to your slate calender we automatically calculate useful insights
+						</div>
+					</div>
+				</div>
+
+				<!-- Background start -->
+				<img class="bg1" src="./assets/background/bg1.png" alt="bg1">
+				<img class="bg2" src="./assets/background/bg2.png" alt="bg2">
+				<img class="bg3" src="./assets/background/bg3.png" alt="bg3">
+				<!-- Background end -->
+			</div>
+
+			<div class="body-two">
+				<div class="sign-in-form-div" id="sign-in-form">
+					<div class="sign-in-form-head">
+						Sign In Your Account
+					</div>
+					<div class="field-tile">
+						<div class="field-title">Name</div>
+						<div class="text-field-div">
+							<input type="text">
+						</div>
+					</div>
+					<div class="field-tile">
+						<div class="field-title">Email</div>
+						<div class="text-field-div">
+							<input type="email">
+						</div>
+					</div>
+					<div class="field-tile">
+						<div class="field-title">Password</div>
+						<div class="text-field-div passs">
+							<input type="password" id="pass">
+							<img src="./assets/signup_form/eye_close.png" alt="eye" onclick="passwordEye()" id="eye">
+						</div>
+						<div class="forgot-pass">Forgot your password ?</div>
+					</div>
+					<div class="sign-in-button-div">
+						<button>Sign In</button>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</body>
+</html>
